@@ -1,0 +1,16 @@
+person:
+  id: 2
+  name: lucy
+  hobby: []
+spring:
+  application:
+    name: bootDemo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mp?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: Root1234!
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
